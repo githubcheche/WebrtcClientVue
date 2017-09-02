@@ -64,7 +64,7 @@ window.RTCPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnecti
 window.RTCIceCandidate = window.RTCIceCandidate || window.mozRTCIceCandidate || window.webkitRTCIceCandidate;
 window.RTCSessionDescription = window.RTCSessionDescription || window.mozRTCSessionDescription || window.webkitRTCSessionDescription;
 
-const socket = io.connect('http://call.icheyy.top:8081');
+const socket = io.connect('https://call.icheyy.top');
 var stream;
 var peerConn;
 var connectedUser = null;
